@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #ccc;
+  font-family: 'Roboto Slab', sans-serif !important;
+}
+
+.navbar {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.navbar-brand {
+  font-family: 'Righteous', cursive !important;
+  font-weight: 0 !important;
+  margin: 0 0.5rem !important;
+  padding: 0.5rem !important;
+  font-size: 1.5rem !important;
+}
+
+.navbar-toggler {
+  margin-right: 1rem !important;
+}
+
+.nav-item .nav-link {
+  font-size: 1rem !important;
+  padding: 0.85rem 1.2rem !important;
+}
+
+.nav-item .nav-link:hover {
+  background: #555 !important;
+}
+
+body,
+#login,
+#game,
+#addUser,
+#createRoom {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login {
+  width: 18rem;
+  margin-top: 13rem;
+  margin-bottom: 13rem;
+  background: #f4f4f4;
+  justify-content: center;
+  border: 0.1rem black solid;
+  border-radius: 0.3rem;
+}
+
+#login h3 {
+  padding: 0.7rem 0 0.3rem 0 !important;
+  font-weight: 600;
+}
+
+#game {
+  margin-top: 5rem;
+}
+
+.options {
+  display: flex;
+}
+
+.options button {
+  flex: 1;
+  min-width: 8rem;
+  margin-bottom: 1.5rem;
+}
+
+#alerts {
+  margin-top: 0.4rem;
+}
+
+#game {
+  display: none;
+}
+
+#addUser {
+  display: none;
+}
+
+canvas {
+  display: none;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+#defaultCanvas0 {
+  border: 1px black solid;
+  margin-bottom: 0.3rem;
+}
+
+select,
+button {
+  font-size: 1rem;
+  margin: 0.3rem;
+  padding: 0.3rem;
+  background: white;
+  border: 1px black solid;
+}
+
+button:hover,
+select:hover {
+  cursor: pointer;
+}
